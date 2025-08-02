@@ -4,6 +4,58 @@ Juego clásico de Buscaminas desarrollado en Eclipse Java.
 
 ---
 
+# Estructura del proyecto 
+```
+Buscaminas/
+├── .classpath                      # Archivo de configuración del proyecto (Eclipse)
+├── .project                        # Archivo de proyecto (Eclipse)
+├── .settings/                     # Preferencias del entorno Eclipse
+│   ├── org.eclipse.core.resources.prefs
+│   └── org.eclipse.jdt.core.prefs
+├── bin/                           
+│   ├── module-info.class
+│   ├── controlador/               
+│   │   └── Controlador.class
+│   ├── main/                      
+│   │   └── Main.class
+│   ├── modelo/                    
+│   │   ├── Casilla.class
+│   │   ├── Jugador.class
+│   │   ├── Tablero.class
+│   │   ├── excepciones/         
+│   │   │   ├── CasillaMarcadaException.class
+│   │   │   ├── CasillaYaDescubiertaException.class
+│   │   │   └── CoordenadaInvalidaException.class
+│   │   └── persistencia/         
+│   │       └── GestorArchivo.class
+│   ├── test/                      
+│   │   └── TableroTest.class
+│   └── vista/                     
+│       └── Consola.class
+├── src/
+|   ├── module-info.java                   # Archivo de módulo para Java (opcional)
+|   ├── controlador/                      # Lógica del flujo del juego
+|   │   └── Controlador.java
+|   ├── main/                             # Punto de entrada del programa
+|   │   └── Main.java
+|   ├── modelo/                           # Clases del modelo de datos y lógica del juego
+|   │   ├── Casilla.java
+|   │   ├── Jugador.java
+|   │   ├── Tablero.java
+|   │   ├── excepciones/                 # Excepciones personalizadas del modelo
+|   │   │   ├── CasillaMarcadaException.java
+|   │   │   ├── CasillaYaDescubiertaException.java
+|   │   │   └── CoordenadaInvalidaException.java
+|   │   └── persistencia/               # Manejo de archivos y almacenamiento
+|   │       └── GestorArchivo.java
+|   ├── test/                             # Pruebas unitarias (JUnit)
+|  │   └── TableroTest.java
+|    └── vista/                            # Interfaz de usuario por consola
+|        └── Consola.java
+
+```
+---
+
 ## Descripción
 
 En este proyecto se implemento el juego de Buscaminas con una consola para interacción este cuenta con la posibilidad de marcar casillas, descubrir minas y verificar si el jugador gana o pierde
