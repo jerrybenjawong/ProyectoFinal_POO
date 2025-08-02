@@ -58,4 +58,5 @@ No hay mina en la casilla (1,1).
 
 > descubrir 0 0  
 ¡Boom! Has descubierto una mina. Juego terminado.
-<img width="1820" height="933" alt="Diagrama_Proyecto_Final 1" src="https://github.com/user-attachments/assets/ec384f0a-e895-4ec9-aa76-2e315bce66fb" />
+-- Diagrama de Clases
+![Diagrama del juego del buscamina](https://github.com/jerrybenjawong/ProyectoFinal_POO/blob/main/Diagrama_Proyecto_Final.png)
