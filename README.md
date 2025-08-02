@@ -58,4 +58,4 @@ No hay mina en la casilla (1,1).
 
 > descubrir 0 0  
 ¡Boom! Has descubierto una mina. Juego terminado.
-<img width="1820" height="933" alt="Diagrama_Proyecto_Final 1" src="https://github.com/user-attachments/assets/855da8e2-fc79-4c23-a29a-09e3693801a3" />
+<img width="1820" height="933" alt="Diagrama_Proyecto_Final 1" src="https://github.com/user-attachments/assets/ec384f0a-e895-4ec9-aa76-2e315bce66fb" />
