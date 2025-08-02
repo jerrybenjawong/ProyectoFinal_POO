@@ -39,11 +39,11 @@ En este proyecto se implemento el juego de Buscaminas con una consola para inter
 
 ---
 
-## Ejemplos de ejecución
+## Diagrama de proyecto
 
 ![Diagrama del juego buscamina](https://github.com/jerrybenjawong/ProyectoFinal_POO/blob/f88e657ce57dcdd696db837ce6acca8bb090b807/Diagrama_Proyecto_Final.png)
 
-```sh  
+## Ejemplos de ejecucion 
 > java -cp bin main.Main  
 Tablero inicial:  
 [ ] [ ] [ ] [ ] [ ]  
@@ -60,6 +60,3 @@ No hay mina en la casilla (1,1).
 
 > descubrir 0 0  
 ¡Boom! Has descubierto una mina. Juego terminado.
--- Diagrama de Clases
-
-
