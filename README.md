@@ -1,5 +1,5 @@
 # Estructura del proyecto
-Buscaminas/
+Buscaminas_Final/
 ├── .classpath                      # Archivo de configuración del proyecto (Eclipse)
 ├── .project                        # Archivo de proyecto (Eclipse)
 ├── .settings/                     # Preferencias del entorno Eclipse
@@ -45,7 +45,6 @@ Buscaminas/
 │   │   └── TableroTest.java
 │   └── vista/
 │       └── Consola.java
-
 
 ---
 
