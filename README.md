@@ -1,3 +1,53 @@
+# Estructura del proyecto
+Buscaminas/
+├── .classpath
+├── .project
+├── .settings/
+│   ├── org.eclipse.core.resources.prefs
+│   └── org.eclipse.jdt.core.prefs
+├── bin/                          ← Archivos compilados (.class)
+│   ├── controlador/
+│   │   └── Controlador.class
+│   ├── main/
+│   │   └── Main.class
+│   ├── modelo/
+│   │   ├── Casilla.class
+│   │   ├── Jugador.class
+│   │   ├── Tablero.class
+│   │   ├── excepciones/
+│   │   │   ├── CasillaMarcadaException.class
+│   │   │   ├── CasillaYaDescubiertaException.class
+│   │   │   └── CoordenadaInvalidaException.class
+│   │   └── persistencia/
+│   │       └── GestorArchivo.class
+│   ├── test/
+│   │   └── TableroTest.class
+│   └── vista/
+│       └── Consola.class
+├── src/                          ← Código fuente (.java)
+│   ├── module-info.java
+│   ├── controlador/
+│   │   └── Controlador.java
+│   ├── main/
+│   │   └── Main.java
+│   ├── modelo/
+│   │   ├── Casilla.java
+│   │   ├── Jugador.java
+│   │   ├── Tablero.java
+│   │   ├── excepciones/
+│   │   │   ├── CasillaMarcadaException.java
+│   │   │   ├── CasillaYaDescubiertaException.java
+│   │   │   └── CoordenadaInvalidaException.java
+│   │   └── persistencia/
+│   │       └── GestorArchivo.java
+│   ├── test/
+│   │   └── TableroTest.java
+│   └── vista/
+│       └── Consola.java
+
+
+---
+
 # Buscaminas
 
 Juego clásico de Buscaminas desarrollado en Eclipse Java.
