@@ -1,30 +1,31 @@
 # Estructura del proyecto
 Buscaminas/
-├── .classpath
-├── .project
-├── .settings/
+├── .classpath                      # Archivo de configuración del proyecto (Eclipse)
+├── .project                        # Archivo de proyecto (Eclipse)
+├── .settings/                     # Preferencias del entorno Eclipse
 │   ├── org.eclipse.core.resources.prefs
 │   └── org.eclipse.jdt.core.prefs
-├── bin/                          ← Archivos compilados (.class)
-│   ├── controlador/
+├── bin/                           # Archivos compilados (.class)
+│   ├── module-info.class
+│   ├── controlador/               # Lógica del controlador principal del juego
 │   │   └── Controlador.class
-│   ├── main/
+│   ├── main/                      # Punto de entrada principal (método main)
 │   │   └── Main.class
-│   ├── modelo/
+│   ├── modelo/                    # Lógica del negocio y datos
 │   │   ├── Casilla.class
 │   │   ├── Jugador.class
 │   │   ├── Tablero.class
-│   │   ├── excepciones/
+│   │   ├── excepciones/          # Excepciones personalizadas del juego
 │   │   │   ├── CasillaMarcadaException.class
 │   │   │   ├── CasillaYaDescubiertaException.class
 │   │   │   └── CoordenadaInvalidaException.class
-│   │   └── persistencia/
+│   │   └── persistencia/         # Gestión de archivos (guardar/cargar partidas)
 │   │       └── GestorArchivo.class
-│   ├── test/
+│   ├── test/                      # Pruebas unitarias (JUnit)
 │   │   └── TableroTest.class
-│   └── vista/
+│   └── vista/                     # Interfaz de usuario por consola
 │       └── Consola.class
-├── src/                          ← Código fuente (.java)
+├── src/                           # Código fuente (.java)
 │   ├── module-info.java
 │   ├── controlador/
 │   │   └── Controlador.java
